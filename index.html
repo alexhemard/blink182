@@ -3,12 +3,18 @@
     <title>&lt;blink&gt;blink 182&lt;/blink&gt;</title>
     <style type="text/css">
       blink {
-      -webkit-animation: blink182 1s step-end infinite;
+      	-webkit-animation: blink182 1s step-end infinite;
+      	animation: blink182 1s step-end infinite;
       }
 
       @-webkit-keyframes blink182 {
-	    0% { visibility: hidden; }
-	    50% { visibility: visible; }
+      	0% { visibility: hidden; }
+        50% { visibility: visible; }
+      }
+      
+      @keyframes blink182 {
+      	0% { visibility: hidden; }
+        50% { visibility: visible; }
       }
     </style>
   </head>
