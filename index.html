@@ -3,28 +3,26 @@
     <title>&lt;blink&gt;blink 182&lt;/blink&gt;</title>
     <style type="text/css">
       body {
-        text-align: center;
+        text-align:  center;
         font-family: sans-serif;
       }
 
       blink {
       	-webkit-animation: blink182 1s step-end infinite;
-      	animation: blink182 1s step-end infinite;
-        font-weight: bold;
-        font-size: 12em;
+      	animation:         blink182 1s step-end infinite;
+        font-weight:       bold;
+        font-size:         12em;
       }
 
       @-webkit-keyframes blink182 {
-      	0% { visibility: hidden; }
-        50% { visibility: visible; }
+      	0%  { opacity: 0; }
+        50% { opacity: 1; }
       }
-      
+
       @keyframes blink182 {
-      	0% { visibility: hidden; }
-        50% { visibility: visible; }
+      	0%  { opacity: 0; }
+        50% { opacity: 1; }
       }
-      
-      
     </style>
   </head>
   <body>
